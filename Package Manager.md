@@ -1,10 +1,3 @@
-## Update your System:
-
-	sudo pacman -Syu
-	
-## Change Time and Date Language:
-   *Settings -> Locale -> English*
-   
 ## Install Pamac:
 Pamac is a graphical package management program that can be used instead of Octopi (Built-in package manager for Manjaro-KDE)
 
@@ -17,6 +10,7 @@ It has built in AUR (Arch User Repository) support.
 Link: https://wiki.manjaro.org/index.php/Pamac
 	
 ## Install yay:
+yay is an AUR Helper. It is a great tool for installing packages from Arch User Repository (AUR) 
     
 	git clone https://aur.archlinux.org/yay.git
 
@@ -24,5 +18,6 @@ Link: https://wiki.manjaro.org/index.php/Pamac
 
 	makepkg -si
 
-After installation you can just search and install any applications
-yay <Search Term>
+After installation you can just search and install any applications using:
+	
+	yay <Search Term>
