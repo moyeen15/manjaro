@@ -1,2 +1,2 @@
 # manjaro
-Manajro Linux Basics
+Manjaro Linux Basics
